@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <div  className='csv'>
-        <p>UPLOAD ONLY CSV OR EXCEL FILE</p>
+        <p>UPLOAD ONLY CSV FILE</p>
         <div  className='csvflex'>
           <input type='file' className='' required onChange={(e) => setFile(e.target.files[0])} />
           <button type="button" className="btn btn-primary" onClick={handleupload}>upload</button>
